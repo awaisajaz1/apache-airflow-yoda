@@ -1,3 +1,4 @@
 *.pyc
 *.csv
 landings/hello_landing.py
+logs/scheduler/latest

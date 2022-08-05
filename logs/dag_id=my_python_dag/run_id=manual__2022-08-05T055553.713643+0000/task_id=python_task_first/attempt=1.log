@@ -1,0 +1,24 @@
+[2022-08-05 05:55:54,950] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: my_python_dag.python_task_first manual__2022-08-05T05:55:53.713643+00:00 [queued]>
+[2022-08-05 05:55:54,960] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: my_python_dag.python_task_first manual__2022-08-05T05:55:53.713643+00:00 [queued]>
+[2022-08-05 05:55:54,960] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 05:55:54,961] {taskinstance.py:1377} INFO - Starting attempt 1 of 3
+[2022-08-05 05:55:54,961] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 05:55:54,971] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): python_task_first> on 2022-08-05 05:55:53.713643+00:00
+[2022-08-05 05:55:54,974] {standard_task_runner.py:52} INFO - Started process 1219 to run task
+[2022-08-05 05:55:54,977] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'my_python_dag', 'python_task_first', 'manual__2022-08-05T05:55:53.713643+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/python_dag .py', '--cfg-path', '/tmp/tmpdn93boz0', '--error-file', '/tmp/tmphzgi4h_f']
+[2022-08-05 05:55:54,978] {standard_task_runner.py:80} INFO - Job 44: Subtask python_task_first
+[2022-08-05 05:55:55,030] {task_command.py:371} INFO - Running <TaskInstance: my_python_dag.python_task_first manual__2022-08-05T05:55:53.713643+00:00 [running]> on host 31de0ba96b93
+[2022-08-05 05:55:55,090] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=my_python_dag
+AIRFLOW_CTX_TASK_ID=python_task_first
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-05T05:55:53.713643+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-05T05:55:53.713643+00:00
+[2022-08-05 05:55:55,090] {logging_mixin.py:115} INFO - Hello World
+[2022-08-05 05:55:55,091] {python.py:173} INFO - Done. Returned value was: Hello World
+[2022-08-05 05:55:55,193] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=my_python_dag, task_id=python_task_first, execution_date=20220805T055553, start_date=20220805T055554, end_date=20220805T055555
+[2022-08-05 05:55:55,229] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-05 05:55:55,278] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

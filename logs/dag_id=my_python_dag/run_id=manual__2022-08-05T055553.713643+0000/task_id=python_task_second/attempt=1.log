@@ -1,0 +1,2 @@
+[2022-08-05 05:55:54,939] {taskinstance.py:1173} INFO - Dependencies not met for <TaskInstance: my_python_dag.python_task_second manual__2022-08-05T05:55:53.713643+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'python_task_first'}
+[2022-08-05 05:55:54,941] {local_task_job.py:101} INFO - Task is not able to be run
