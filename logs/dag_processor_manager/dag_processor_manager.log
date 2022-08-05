@@ -397,3 +397,202 @@ File Path                            PID  Runtime      # DAGs    # Errors  Last 
 /opt/airflow/dags/python_dag .py                            1           0  0.09s           2022-08-05T06:03:40
 ================================================================================
 [2022-08-05 06:04:16,336] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2022-08-05 09:59:35,778] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2022-08-05 09:59:35,778] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2022-08-05 09:59:35,778] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-08-05 09:59:35,779] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-08-05 09:59:35,819] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2022-08-05 09:59:35,946] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/my_first_dag.py                           0           0
+/opt/airflow/dags/python_dag .py     244  0.04s             0           0
+/opt/airflow/dags/xcom_dag.py        242  0.05s             0           0
+================================================================================
+[2022-08-05 09:59:36,280] {manager.py:925} ERROR - Processor for /opt/airflow/dags/xcom_dag.py exited with return code 1.
+[2022-08-05 10:00:06,497] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/xcom_dag.py        286  0.01s             0          -1  0.39s           2022-08-05T09:59:36
+/opt/airflow/dags/my_first_dag.py                           1           0  0.16s           2022-08-05T09:59:36
+/opt/airflow/dags/python_dag .py     289  0.00s             1           0  0.34s           2022-08-05T09:59:36
+================================================================================
+[2022-08-05 10:00:20,721] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:20,798] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:21,726] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:21,810] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:22,730] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:22,814] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:23,738] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:23,817] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:36,939] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    344  0.00s             1           0  0.10s           2022-08-05T10:00:06
+/opt/airflow/dags/python_dag .py     341  0.01s             1           0  0.11s           2022-08-05T10:00:06
+/opt/airflow/dags/xcom_dag.py                               1           0  0.11s           2022-08-05T10:00:25
+================================================================================
+[2022-08-05 10:00:50,120] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:50,155] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:51,126] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:51,166] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:52,131] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:52,177] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:53,145] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:53,189] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:54,160] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:54,201] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:55,174] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:00:55,214] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/xcom_dag.py
+[2022-08-05 10:01:07,347] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    384  0.00s             1           0  0.09s           2022-08-05T10:00:37
+/opt/airflow/dags/python_dag .py     381  0.01s             1           0  0.15s           2022-08-05T10:00:37
+/opt/airflow/dags/xcom_dag.py                               1           0  0.10s           2022-08-05T10:00:58
+================================================================================
+[2022-08-05 10:01:37,669] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    426  0.00s             1           0  0.11s           2022-08-05T10:01:07
+/opt/airflow/dags/python_dag .py     424  0.01s             1           0  0.11s           2022-08-05T10:01:07
+/opt/airflow/dags/xcom_dag.py                               1           0  0.13s           2022-08-05T10:01:28
+================================================================================
+[2022-08-05 10:02:07,990] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    469  0.00s             1           0  0.09s           2022-08-05T10:01:37
+/opt/airflow/dags/python_dag .py     466  0.01s             1           0  0.10s           2022-08-05T10:01:37
+/opt/airflow/dags/xcom_dag.py                               1           0  0.11s           2022-08-05T10:01:58
+================================================================================
+[2022-08-05 10:02:38,298] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    503  0.00s             1           0  0.11s           2022-08-05T10:02:08
+/opt/airflow/dags/python_dag .py     500  0.01s             1           0  0.14s           2022-08-05T10:02:08
+/opt/airflow/dags/xcom_dag.py                               1           0  0.10s           2022-08-05T10:02:29
+================================================================================
+[2022-08-05 10:03:08,596] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    551  0.00s             1           0  0.10s           2022-08-05T10:02:38
+/opt/airflow/dags/python_dag .py     548  0.01s             1           0  0.10s           2022-08-05T10:02:38
+/opt/airflow/dags/xcom_dag.py                               1           0  0.09s           2022-08-05T10:03:07
+================================================================================
+[2022-08-05 10:03:38,883] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    594  0.00s             1           0  0.10s           2022-08-05T10:03:08
+/opt/airflow/dags/python_dag .py     591  0.01s             1           0  0.09s           2022-08-05T10:03:08
+/opt/airflow/dags/xcom_dag.py                               1           0  0.11s           2022-08-05T10:03:37
+================================================================================
+[2022-08-05 10:04:09,220] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    627  0.00s             1           0  0.11s           2022-08-05T10:03:38
+/opt/airflow/dags/python_dag .py     624  0.01s             1           0  0.14s           2022-08-05T10:03:39
+/opt/airflow/dags/xcom_dag.py                               1           0  0.13s           2022-08-05T10:04:08
+================================================================================
+[2022-08-05 10:04:36,439] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-08-05 10:04:36,470] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2022-08-05 10:04:39,522] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    671  0.00s             1           0  0.12s           2022-08-05T10:04:09
+/opt/airflow/dags/python_dag .py     668  0.01s             1           0  0.12s           2022-08-05T10:04:09
+/opt/airflow/dags/xcom_dag.py                               1           0  0.13s           2022-08-05T10:04:38
+================================================================================
+[2022-08-05 10:05:09,859] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    714  0.00s             1           0  0.10s           2022-08-05T10:04:39
+/opt/airflow/dags/python_dag .py     711  0.01s             1           0  0.10s           2022-08-05T10:04:39
+/opt/airflow/dags/xcom_dag.py                               1           0  0.11s           2022-08-05T10:05:08
+================================================================================
+[2022-08-05 10:05:40,177] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    755  0.00s             1           0  0.09s           2022-08-05T10:05:09
+/opt/airflow/dags/python_dag .py     752  0.01s             1           0  0.13s           2022-08-05T10:05:09
+/opt/airflow/dags/xcom_dag.py                               1           0  0.10s           2022-08-05T10:05:11
+================================================================================
+[2022-08-05 10:06:10,533] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py    797  0.00s             1           0  0.10s           2022-08-05T10:05:40
+/opt/airflow/dags/python_dag .py     795  0.01s             1           0  0.11s           2022-08-05T10:05:40
+/opt/airflow/dags/xcom_dag.py                               1           0  0.13s           2022-08-05T10:05:41
+================================================================================
+[2022-08-05 10:06:39,910] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:39,957] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:40,915] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:40,923] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                           1           0  0.12s           2022-08-05T10:06:32
+/opt/airflow/dags/python_dag .py     844  0.00s             1           0  0.11s           2022-08-05T10:06:10
+/opt/airflow/dags/xcom_dag.py                               1           0  0.09s           2022-08-05T10:06:11
+================================================================================
+[2022-08-05 10:06:40,960] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:41,074] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:41,968] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:42,079] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:42,147] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:43,085] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:43,151] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:44,097] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:44,157] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:45,104] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:45,169] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:46,116] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:46,181] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:47,121] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:47,191] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:48,126] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:48,194] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/my_first_dag.py
+[2022-08-05 10:06:48,700] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
