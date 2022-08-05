@@ -1,13 +1,15 @@
 from asyncio import tasks
 from airflow import DAG
 from datetime import datetime, timedelta
+from airflow.models import Variable
 from airflow.operators.python_operator import PythonOperator
 
 
 # python fucntion
 def hello_world():
-    print("Hello World")
-    return "Hello World"
+    tmpl_search_path = Variable.get("own")
+    print(f"Hello World {tmpl_search_path}")
+    return "Hello World ", tmpl_search_path
 
 
 def bio_data(name, age):
