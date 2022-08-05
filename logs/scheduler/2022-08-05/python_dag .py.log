@@ -156,3 +156,17 @@
 [2022-08-05 06:00:08,246] {logging_mixin.py:115} INFO - [2022-08-05 06:00:08,246] {dag.py:2420} INFO - Sync 1 DAGs
 [2022-08-05 06:00:08,269] {logging_mixin.py:115} INFO - [2022-08-05 06:00:08,269] {dag.py:2972} INFO - Setting next_dagrun for my_python_dag to 2022-08-05T00:00:00+00:00, run_after=2022-08-06T00:00:00+00:00
 [2022-08-05 06:00:08,292] {processor.py:161} INFO - Processing /opt/airflow/dags/python_dag .py took 0.090 seconds
+[2022-08-05 06:00:38,525] {processor.py:153} INFO - Started process (PID=1564) to work on /opt/airflow/dags/python_dag .py
+[2022-08-05 06:00:38,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/python_dag .py for tasks to queue
+[2022-08-05 06:00:38,528] {logging_mixin.py:115} INFO - [2022-08-05 06:00:38,528] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag .py
+[2022-08-05 06:00:38,550] {processor.py:651} INFO - DAG(s) dict_keys(['my_python_dag']) retrieved from /opt/airflow/dags/python_dag .py
+[2022-08-05 06:00:38,577] {logging_mixin.py:115} INFO - [2022-08-05 06:00:38,577] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-05 06:00:38,602] {logging_mixin.py:115} INFO - [2022-08-05 06:00:38,602] {dag.py:2972} INFO - Setting next_dagrun for my_python_dag to 2022-08-05T00:00:00+00:00, run_after=2022-08-06T00:00:00+00:00
+[2022-08-05 06:00:38,614] {processor.py:161} INFO - Processing /opt/airflow/dags/python_dag .py took 0.093 seconds
+[2022-08-05 06:01:08,829] {processor.py:153} INFO - Started process (PID=1593) to work on /opt/airflow/dags/python_dag .py
+[2022-08-05 06:01:08,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/python_dag .py for tasks to queue
+[2022-08-05 06:01:08,830] {logging_mixin.py:115} INFO - [2022-08-05 06:01:08,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag .py
+[2022-08-05 06:01:08,847] {processor.py:651} INFO - DAG(s) dict_keys(['my_python_dag']) retrieved from /opt/airflow/dags/python_dag .py
+[2022-08-05 06:01:08,867] {logging_mixin.py:115} INFO - [2022-08-05 06:01:08,867] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-08-05 06:01:08,893] {logging_mixin.py:115} INFO - [2022-08-05 06:01:08,892] {dag.py:2972} INFO - Setting next_dagrun for my_python_dag to 2022-08-05T00:00:00+00:00, run_after=2022-08-06T00:00:00+00:00
+[2022-08-05 06:01:08,903] {processor.py:161} INFO - Processing /opt/airflow/dags/python_dag .py took 0.077 seconds
