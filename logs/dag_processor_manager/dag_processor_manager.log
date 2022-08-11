@@ -5519,3 +5519,184 @@ File Path                                PID  Runtime      # DAGs    # Errors  L
 [2022-08-10 07:54:29,196] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
 [2022-08-10 07:54:30,089] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
 [2022-08-10 07:54:30,201] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:31,093] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:31,205] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:32,099] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:32,209] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:33,107] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:33,214] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:34,113] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:34,219] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:35,117] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:35,129] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_dependencies.py                           1           0  0.13s           2022-08-10T07:53:37
+/opt/airflow/dags/my_first_dags.py     10970  0.00s             1           0  0.10s           2022-08-10T07:54:04
+/opt/airflow/dags/python_dag .py       10967  0.01s             1           0  0.10s           2022-08-10T07:54:04
+/opt/airflow/dags/xcom_dag.py                                   1           0  0.13s           2022-08-10T07:54:05
+================================================================================
+[2022-08-10 07:54:35,273] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:35,332] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:36,279] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:36,336] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:37,284] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:37,341] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:38,289] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:38,345] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:39,295] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:39,350] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:40,301] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:40,354] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:41,306] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:41,357] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:42,311] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:42,362] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:43,315] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:43,366] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:44,320] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:44,370] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:45,325] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:45,374] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:46,331] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:46,378] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:47,338] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:47,383] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:48,342] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:48,386] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:49,347] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:49,390] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:50,351] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:50,394] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:51,357] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:51,398] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:52,362] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:52,402] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:53,366] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:53,405] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:54,371] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:54,409] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:55,375] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:55,413] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:56,380] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:56,417] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:57,386] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:57,420] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:58,391] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:58,425] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:59,396] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:54:59,429] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:00,402] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:00,433] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:01,407] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:01,437] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:02,412] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:02,441] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:03,417] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:03,445] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:04,422] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:04,449] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:05,427] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:05,439] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_dependencies.py                           1           0  0.13s           2022-08-10T07:53:37
+/opt/airflow/dags/my_first_dags.py     11003  0.00s             1           0  0.11s           2022-08-10T07:54:35
+/opt/airflow/dags/python_dag .py       11000  0.01s             1           0  0.15s           2022-08-10T07:54:35
+/opt/airflow/dags/xcom_dag.py                                   1           0  0.09s           2022-08-10T07:54:35
+================================================================================
+[2022-08-10 07:55:05,683] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:06,553] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:06,687] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:07,558] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:07,693] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:08,565] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:08,706] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:09,569] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:09,711] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:10,576] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:10,715] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:11,581] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:11,720] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:12,586] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:12,724] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:13,591] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:13,729] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:14,596] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:14,734] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:15,601] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:15,739] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:16,607] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:16,743] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:17,612] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:17,747] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:18,618] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:18,751] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:19,623] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:19,756] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:20,629] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:20,760] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_dependencies.py
+[2022-08-10 07:55:21,634] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2022-08-10 07:55:21,680] {manager.py:693} INFO - There are 4 files in /opt/airflow/dags
+[2022-08-10 07:55:35,850] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dags.py  11051  0.00s             1           0  0.11s           2022-08-10T07:55:05
+/opt/airflow/dags/python_dag .py    11048  0.01s             1           0  0.12s           2022-08-10T07:55:05
+/opt/airflow/dags/task_flow_api.py                           1           0  0.17s           2022-08-10T07:55:21
+/opt/airflow/dags/xcom_dag.py                                1           0  0.14s           2022-08-10T07:55:05
+================================================================================
+[2022-08-10 07:56:06,188] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dags.py  11099  0.00s             1           0  0.10s           2022-08-10T07:55:35
+/opt/airflow/dags/python_dag .py    11096  0.01s             1           0  0.14s           2022-08-10T07:55:35
+/opt/airflow/dags/task_flow_api.py                           1           0  0.17s           2022-08-10T07:55:52
+/opt/airflow/dags/xcom_dag.py                                1           0  0.08s           2022-08-10T07:55:36
+================================================================================
+[2022-08-10 07:56:36,577] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dags.py  11138  0.00s             1           0  0.10s           2022-08-10T07:56:06
+/opt/airflow/dags/python_dag .py    11135  0.01s             1           0  0.11s           2022-08-10T07:56:06
+/opt/airflow/dags/task_flow_api.py                           1           0  0.14s           2022-08-10T07:56:22
+/opt/airflow/dags/xcom_dag.py                                1           0  0.13s           2022-08-10T07:56:06
+================================================================================
+[2022-08-10 07:57:06,946] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dags.py  11188  0.00s             1           0  0.12s           2022-08-10T07:56:36
+/opt/airflow/dags/python_dag .py    11185  0.01s             1           0  0.15s           2022-08-10T07:56:36
+/opt/airflow/dags/task_flow_api.py                           1           0  0.17s           2022-08-10T07:56:52
+/opt/airflow/dags/xcom_dag.py                                1           0  0.09s           2022-08-10T07:56:36
+================================================================================
+[2022-08-10 07:57:37,323] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dags.py  11235  0.00s             1           0  0.09s           2022-08-10T07:57:07
+/opt/airflow/dags/python_dag .py    11232  0.01s             1           0  0.10s           2022-08-10T07:57:07
+/opt/airflow/dags/task_flow_api.py                           1           0  0.16s           2022-08-10T07:57:23
+/opt/airflow/dags/xcom_dag.py                                1           0  0.13s           2022-08-10T07:57:07
+================================================================================
+[2022-08-10 07:57:59,310] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
