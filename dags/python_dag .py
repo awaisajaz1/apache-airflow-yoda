@@ -24,10 +24,10 @@ default_args = {
 
 
 with DAG(
-    dag_id='my_python_dag',
+    dag_id='my_python_dag2',
     default_args=default_args,
     description='My first Python DAG is in testing mode',
-    start_date=datetime(2022, 8, 3, 2),
+    start_date=datetime(2022, 8, 11),
     schedule_interval='@daily'
 
 

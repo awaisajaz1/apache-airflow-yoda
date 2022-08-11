@@ -6,7 +6,7 @@ from airflow.operators.python_operator import PythonOperator
 
 # python fucntion
 def get_name():
-    return 'Owais'
+    return 'Data Engineering'
 
 
 def bio_data(age, ti):
@@ -22,7 +22,7 @@ default_args = {
 
 
 with DAG(
-    dag_id='my_python_dag',
+    dag_id='xcom_dag_v1',
     default_args=default_args,
     description='My first Python DAG is in testing mode',
     start_date=datetime(2022, 8, 3, 2),
